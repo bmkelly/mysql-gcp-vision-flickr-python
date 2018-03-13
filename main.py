@@ -48,7 +48,7 @@ draw = ImageDraw.Draw(img)
 # font = ImageFont.truetype(<font-file>, <font-size>)
 #font = ImageFont.truetype("sans-serif.ttf", 16)
 # draw.text((x, y),"Sample Text",(r,g,b))
-draw.text((0, 0),output_text,(255,255,255))
+draw.text((0, 0),output_text,(102, 255, 153))
 img.save('sample-out.jpg')
 
 
