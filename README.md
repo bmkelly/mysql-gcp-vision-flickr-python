@@ -39,10 +39,10 @@ Run main_args.py filling in the necessary arguments (-h command to get help info
 If following this example exactly, the only necessary arguments are flickr_api_key and flickr_api_secret.
 
 First, the the images will be downloaded:
-![first_part](first_part.jpg?raw=true "Images being downloaded")
+![first_part](first_part.PNG?raw=true "Images being downloaded")
 
 Then the labels from googles vision servers will be requested, saved, and stored:
-![second_part](second_part.jpg?raw=true "Labels stored")
+![second_part](second_part.PNG?raw=true "Labels stored")
 
 The database created has the following schema: 
 ![Database Schema](database_schema.jpg?raw=true "Database Schema")
