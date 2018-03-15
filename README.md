@@ -3,6 +3,7 @@
 # mysql-gcp-vision-flickr-python
 
 An example image with it's labels superimposed can is here:
+
 ![Example image](sample-out.jpg?raw=true "Example image with label superimposed")
 
 This project uses google's vision api to characterize flickr images.  
