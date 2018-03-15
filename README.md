@@ -1,6 +1,8 @@
+ 
+
 # mysql-gcp-vision-flickr-python
 
-An example image with it's labels superimposed can be seen here:
+An example image with it's labels superimposed can is here:
 ![Example image](sample-out.jpg?raw=true "Example image with label superimposed")
 
 This project uses google's vision api to characterize flickr images.  
@@ -8,7 +10,7 @@ Images and labels are stored in a mysql database.
 
 To run this, you will need python2.7 with the following packages: Pillow, MySQLdb, flickr_api (https://github.com/alexis-mignon/python-flickr-api)
 
-If you run this on a fresh Debian GNU/Linux 9 (stretch) install, here are the necessary installation commands.
+If you run this on a fresh Debian GNU/Linux 9 (stretch) server, here are the necessary installation commands.
 
 **GIT install and download repo**
 * sudo apt-get update
@@ -35,10 +37,10 @@ If you run this on a fresh Debian GNU/Linux 9 (stretch) install, here are the ne
 * run code in database_creation.sql
 
 **Run the code**
-Run main_args.py filling in the necessary arguments (-h command to get help info), or run main.py changing the variables manually.
+Run main_args.py filling in the necessary arguments.  Use the -h command to get help info.  Or, run main.py changing the variables in the main.py file.
 If following this example exactly, the only necessary arguments are flickr_api_key and flickr_api_secret.
 
-First, the the images will be downloaded:
+First, the the images are downloaded:
 ![first_part](first_part.PNG?raw=true "Images being downloaded")
 
 Then the labels from googles vision servers will be requested, saved, and stored:
@@ -46,7 +48,6 @@ Then the labels from googles vision servers will be requested, saved, and stored
 
 The database created has the following schema: 
 ![Database Schema](database_schema.jpg?raw=true "Database Schema")
-
 
 
 
